@@ -3,13 +3,14 @@
 
 left to right direction
 
-actor Admin
+
 actor Bruger
 
 rectangle OptiMind{
-
-  Bruger --> (s)
-  Bruger --> (s)
+  Bruger --> (Log humør)
+  Bruger --> (Skriv kommentar)
+  Bruger --> (humøroversigt)
+  
 
 }
 @enduml
