@@ -1,0 +1,15 @@
+@startuml 
+
+
+left to right direction
+
+actor Admin
+actor Bruger
+
+rectangle OptiMind{
+
+  Bruger --> (s)
+  Bruger --> (s)
+
+}
+@enduml
