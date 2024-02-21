@@ -10,6 +10,9 @@ rectangle OptiMind{
   Bruger --> (Log humør)
   Bruger --> (Skriv kommentar)
   Bruger --> (humøroversigt)
+  Bruger --> (Log aktivitet)
+  Bruger --> (Tilføj aktivitet)
+
   
 
 }
