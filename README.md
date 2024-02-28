@@ -20,10 +20,40 @@ Formålet er, at se en sammenhæng mellem day-to-day aktiviteter (alt fra job ti
 # UseCases
 
 
-## Title: Moodlogging at app open
-## Actor:User
-## Description:
-opens the app, the user will be prompted with a popup that asks the user to rate their mood.
+## UC1: Moodlogging
+## Scope:
+    - Essential Moodlog System
+## Level
+    - User goal
+## Primary Actor:
+    - User
+## Stakeholders and Interests
+    - User: Wants fast, easy, low effort moodlogging
+## Preconditions
+    - User has installed OptiMind
+## Success Guarantee
+    - Mood is logged in a local database. Mood Overview is updated. Current Day is updated.
+## Main success Scenario
+    - User opens the app.
+    - User Presses a smiley that resembles their mood.
+    - User has their Current Day updated.
+    - User has their Mood Overview updated.
+## Extensions
+    *a. At any time, user chooses the wrong smiley.
+     - User can always change the mood they logged.
+    *b. At any time, the system fails.
+     - The app closes.
+     - Nothing from the last mood log is saved.
+## Special requirements
+    - English/danish phone language
+## Technology and data variations list
+    - Smartphone 
+    - Android
+## Frequency of occurrence
+    - Whenever the user opens the app.
+## Miscellaneous
+
+
 
 
 ## Title: Add comment to a mood
