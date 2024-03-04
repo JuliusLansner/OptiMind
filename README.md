@@ -22,13 +22,11 @@ Formålet er, at se en sammenhæng mellem day-to-day aktiviteter (alt fra job ti
 
 ## UC1: Moodlogging
 ## Scope:
-    - Essential Moodlog System
+    - Log user mood at app open
 ## Level
     - User goal
 ## Primary Actor:
     - User
-## Stakeholders and Interests
-    - User: Wants fast, easy, low effort moodlogging
 ## Preconditions
     - User has installed OptiMind
 ## Success Guarantee
@@ -44,8 +42,6 @@ Formålet er, at se en sammenhæng mellem day-to-day aktiviteter (alt fra job ti
     *b. At any time, the system fails.
      - The app closes.
      - Nothing from the last mood log is saved.
-## Special requirements
-    - English/danish phone language
 ## Technology and data variations list
     - Smartphone 
     - Android
